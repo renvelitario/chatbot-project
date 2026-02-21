@@ -1,0 +1,61 @@
+.send-btn,
+.clear-btn {
+  padding: 12px 20px;
+  margin-left: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.send-btn {
+  background-color: #198754;
+  color: white;
+}
+
+.clear-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.send-btn:hover {
+  background-color: #157347;
+}
+
+.clear-btn:hover {
+  background-color: #c82333;
+}
+
+.send-btn:active,
+.clear-btn:active {
+  transform: scale(0.95);
+}
+
+.input-field {
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  flex-grow: 1;
+  min-width: 0;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  outline: none;
+}
+
+.input-field:focus {
+  border-color: #198754;
+  box-shadow: 0 0 5px rgba(25, 135, 84, 0.3);
+}
+
+.chat-input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.loading {
+  height: 40px;
+  margin: -15px;
+}
+
+
