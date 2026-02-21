@@ -1,16 +1,38 @@
-# React + Vite
+# Chatbot Project (Supersimple.dev Course)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Description
+This is a simple chatbot web application built while learning React from the :contentReference[oaicite:0]{index=0} course.
 
-Currently, two official plugins are available:
+The project demonstrates basic React concepts such as state management, components, event handling, and auto-scrolling chat behavior.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- User chat input handling  
+- Bot response integration  
+- Loading animation while waiting for response  
+- Auto-scroll chat window  
+- Keyboard shortcuts:
+  - **Enter** → Send message  
+  - **Escape** → Clear input  
 
-## React Compiler
+## 🛠 Tech Stack
+- HTML5  
+- CSS3  
+- React (via CDN)  
+- JavaScript (Babel JSX)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📁 Project Structure
+- Chat container layout
+- Chat message rendering component
+- Input handler component
+- Custom auto-scroll hook
 
-## Expanding the ESLint configuration
+## ▶️ How to Run
+Simply open the `index.html` file in a browser.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+No installation is required since this project uses CDN-based React.
+
+## 👤 Author
+Ren Velitario
+
+## 📄 License
+This project is for educational purposes only.
